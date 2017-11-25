@@ -1,1 +1,6 @@
+Keras==2.1.1
+numpy==1.13.3
+PyYAML==3.12
+scipy==1.0.0
+six==1.11.0
 SQLAlchemy==1.1.15
