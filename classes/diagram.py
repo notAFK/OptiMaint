@@ -3,8 +3,8 @@ class Diagram(object):
   """
   id: int
   company: string (XC/WC)
-  start_station: dictionary { name: string, time: datetime }
-  end_station: dictionary { name: string, time: datetime }
+  start_station: dictionary { station: Station, time: datetime }
+  end_station: dictionary { station: Station, time: datetime }
   nr_cars: int
   mileage: double
   period: dictionary { start: datetime, end: datetime, type: string(SO/SX) }
