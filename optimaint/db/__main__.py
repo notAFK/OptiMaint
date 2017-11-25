@@ -1,3 +1,3 @@
-# from optimaint.db.config import BASE, ENGINE, SESSION
+from optimaint.db.config import BASE, ENGINE
 
-# BASE.metadata.create_all(ENGINE)
+BASE.metadata.create_all(ENGINE)

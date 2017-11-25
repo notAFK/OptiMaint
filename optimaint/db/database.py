@@ -47,7 +47,7 @@ class Diagram(BASE):
 class Station(BASE):
     __tablename__ = 'stations'
 
-    uuid = Column(Integer, primary_key=True, unique=True)
+    uuid = Column(String, primary_key=True, unique=True)
     name = Column(String)
     company = Column(String)
     train_limit = Column(Integer)
