@@ -1,5 +1,5 @@
 from optimaint.db.database import Exam, Station, Train
-from optimaint.db.config import SESSION
+from optimaint.db.config import SESSION, BASE, ENGINE
 
 EXAMS = [
     Exam(name='C1', etype='C',
@@ -100,17 +100,20 @@ for train_id in XC_TRAIN_UUIDS_5:
     TRAINS.append(Train(uuid=train_id, company='XC', no_cars=5))
 
 if __name__ == '__main__':
+
+    BASE.metadata.create_all(ENGINE)
+
     s = SESSION()
 
-    # print('TRAINS')
-    # for train in TRAINS:
-    #     s.add(train)
-    # s.commit()
+    print('TRAINS')
+    for train in TRAINS:
+        s.add(train)
+    s.commit()
 
-    # print('EXAMS')
-    # for exam in EXAMS:
-    #     s.add(exam)
-    # s.commit()
+    print('EXAMS')
+    for exam in EXAMS:
+        s.add(exam)
+    s.commit()
 
     print('STATIONS')
     for station in STATIONS:
