@@ -1,0 +1,11 @@
+SX- Weekdays
+O - Only
+
+M   - Mon
+T   - Tue
+W   - Wed
+Th  - Thu
+F   - Fri
+S   - Sat
+Su  - Sun
+
