@@ -92,14 +92,14 @@ class Schedule(BASE):
     end_time = Column(Date)
 
 
-@contextmanager
-def session():
-    s = SESSION()
-    try:
-        yield s
-        s.commit()
-    except Exception as e:
-        print('EXCEPTION:')
-        print(e)
-    finally:
-        s.close()
+# @contextmanager
+# def session():
+#     s = SESSION()
+#     try:
+#         yield s
+#         s.commit()
+#     except Exception as e:
+#         print('EXCEPTION:')
+#         print(e)
+#     finally:
+#         s.close()

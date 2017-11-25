@@ -10,7 +10,7 @@ if DB_ENV == "local":
     _db = ":memory:"
 else:
     _db = os.path.abspath(
-        os.path.join(os.path.dirname(__file__) + "database.db"))
+        os.path.join(os.path.dirname(__file__), "database.db"))
 
 ENGINE = create_engine("sqlite:///{}".format(_db), echo=True)
 BASE = declarative_base(metadata=MetaData())
