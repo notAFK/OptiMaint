@@ -1,0 +1,2214 @@
+	Diagram :	VW	501	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		11+19	5M56		501(1)\506(2)	
+	Edinburgh	12+24			REVRSE		
+	Edinburgh		12.51	9M56		506(1)\501(2)	3561
+	New St.	17.06	17.10	9M56		506(1)\501(2)	3561
+	Euston	18.36			REVRSE		
+	Euston		20.00	9G58		501(1)\506(2)	5271
+	New St.	21.24			REVRSE		
+	New St.		21+48	5D58		506(1)\501(2)	
+	BrtnUNCmd	22+21			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	521.56	(ETY)	84.23	(TOT)	605.79
+ 
+ 
+	Diagram :	VW	501	MTWO	22/05/17	06/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+23	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05			REVRSE		
+	New St.		18.30	1B80			5900
+	Euston	19.56			REVRSE		
+	Euston		20.23	9G44			5430
+	New St.	21.46	21.50	9G44			5430
+	Wolvrhptn	22.10			REVRSE		
+	Wolvrhptn		22+24	5D44			
+	New St.	23+03	23+21	5D44		512(1)\501(2)	
+	BrtnUNCmd	00+01			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	760.35	(ETY)	102.22	(TOT)	862.57
+ 
+ 
+	Diagram :	VW	501	ThFO	25/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+49	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05			REVRSE		
+	New St.		18.30	1B80			5900
+	Euston	19.56			REVRSE		
+	Euston		20.23	9G44			5430
+	New St.	21.46	21.50	9G44			5430
+	Wolvrhptn	22.10			REVRSE		
+	Wolvrhptn		22+24	5D44			
+	New St.	23+03	23+21	5D44		512(1)\501(2)	
+	BrtnUNCmd	00+01			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	760.35	(ETY)	96.73	(TOT)	857.08
+ 
+ 
+	Diagram :	VW	501	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+46	5D80		516(1)\501(2)	
+	New St.	05+15			REVRSE		
+	New St.		05.50	1B01			5517
+	Euston	07.15			REVRSE		
+	Euston		08.03	9G07			5047
+	New St.	09.25			REVRSE		
+	New St.		09.50	1B12			5637
+	Euston	11.14			REVRSE		
+	Euston		12.03	9G19			5157
+	New St.	13.26			REVRSE		
+	New St.		13.50	1B24			5757
+	Euston	15.16			REVRSE		
+	Euston		16.10	1D90			4337
+	Holyhead	19.52					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	828.44	(ETY)	25.00	(TOT)	853.44
+ 
+ 
+	Diagram :	VW	502	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		08+59	5P51		503(1)\502(2)	
+	Crewe	09+04	09+14	5P51		503(1)\502(2)	
+	Preston	09+56			REVRSE		
+	Preston		10.17	9G51			1501
+	New St.	11.50			REVRSE		
+	New St.		12.20	1S60			1051
+	Edinburgh	16.20			REVRSE		
+	Edinburgh		16.51	9M60			1651
+	New St.	20.51	21+19	5D60			
+	BrtnUNCmd	21+54			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	694.99	(ETY)	78.19	(TOT)	773.18
+ 
+ 
+	Diagram :	VW	502	MTWO	22/05/17	06/09/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+23	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05	18.15	9S93			3200
+	Edinburgh	22.19	22+38	5S93			
+	Glas Cen.	00+01			REVRSE		
+	Glas Cen.		00+11	5S93			
+	PoldieCMD	00+21			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	817.22	(ETY)	127.90	(TOT)	945.12
+ 
+ 
+	Diagram :	VW	502	ThO	25/05/17	07/09/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+49	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05	18.15	9S93			3200
+	Edinburgh	22.19	22+38	5S93			
+	Glas Cen.	00+01			REVRSE		
+	Glas Cen.		00+11	5S93			
+	PoldieCMD	00+21			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	817.22	(ETY)	122.41	(TOT)	939.63
+ 
+ 
+	Diagram :	VW	502	FO	26/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+49	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05	18.15	9S93			3200
+	Edinburgh	22.19	22+38	5S93			
+	Glas Cen.	00+19			REVRSE		
+	Glas Cen.		00+26	5S93			
+	PoldieCMD	00+36			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	817.22	(ETY)	118.03	(TOT)	935.25
+ 
+ 
+	Diagram :	VW	502	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		07+28	5M51			
+	Glas Cen.	07+42			REVRSE		
+	Glas Cen.		08.00	9M51			3597
+	Wolvrhptn	11.33	11.45	9M51		508(1)\502(2)	3597
+	New St.	12.05	12.10	9M51		508(1)\502(2)	3597
+	Euston	13.32			REVRSE		
+	Euston		14.23	9G26			5227
+	New St.	15.45			REVRSE		
+	New St.		16.30	1B32		502(1)\515(2)	5827
+	Euston	17.56			REVRSE		
+	Euston		18.23	9J38		515(1)\502(2)	5357
+	New St.	19.45	19.50	9J38		515(1)\502(2)	5357
+	Wolvrhptn	20.10					
+	Wolvrhptn		20+28	5K38			
+	Crewe	21+06			REVRSE		
+	Crewe		21+14	5K38			
+	Crewe CS	21+19			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	760.80	(ETY)	42.39	(TOT)	803.19
+ 
+ 
+	Diagram :	VW	502	MTO	11/09/17	05/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+23	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05	18.15	9S93			3200
+	Edinburgh	22.19	22+38	5S93			
+	Glas Cen.	00+19			REVRSE		
+	Glas Cen.		00+26	5S93			
+	PoldieCMD	00+36			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	817.22	(ETY)	123.52	(TOT)	940.74
+ 
+ 
+	Diagram :	VW	502	WO	13/09/17	06/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+23	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05	18.15	9S93			3200
+	Edinburgh	22.19	22+38	5S93			
+	Glas Cen.	00+01			REVRSE		
+	Glas Cen.		00+11	5S93			
+	PoldieCMD	00+21			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	817.22	(ETY)	127.90	(TOT)	945.12
+ 
+ 
+	Diagram :	VW	502	ThO	14/09/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		06+49	5M52		501(1)\502(2)	
+	Edinburgh	08+36	08.51	9M52		501(1)\502(2)	3580
+	New St.	13.05	13.10	9M52		501(1)\502(2)	3580
+	Euston	14.33			REVRSE		
+	Euston		15+00	5M52			
+	EustonUCS	15+05			REVRSE		
+	EustonUCS		16+12	5S93			
+	Euston	16+17			REVRSE		
+	Euston		16.43	9S93		502(1)\501(2)	3200
+	New St.	18.05	18.15	9S93			3200
+	Edinburgh	22.19	22+38	5S93			
+	Glas Cen.	00+01			REVRSE		
+	Glas Cen.		00+11	5S93			
+	PoldieCMD	00+21			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	817.22	(ETY)	122.41	(TOT)	939.63
+ 
+ 
+	Diagram :	VW	503	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		08+59	5P51		503(1)\502(2)	
+	Crewe	09+04	09+14	5P51		503(1)\502(2)	
+	Preston	09+56			REVRSE		
+	Preston		11.17	9G52			1511
+	New St.	12.50			REVRSE		
+	New St.		13.20	1S65			1061
+	Glas Cen.	17.13			REVRSE		
+	Glas Cen.		18.38	9M19			1671
+	New St.	22.32	22+43	5D19			
+	BrtnUNCmd	23+12			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	699.67	(ETY)	78.19	(TOT)	777.86
+ 
+ 
+	Diagram :	VW	503	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		06+01	5J25			
+	Crewe	06+04	06+10	5J25			
+	Chester	06+31	06+33	5J25			
+	Croes NeA	06+49			REVRSE		
+	Croes NeA		06+55	5J25			
+	WrexhmGen	06+58	07.00	1D25			4530
+	Chester	07.16					
+	Chester		07.35	1R24		503(1)\514(2)	4530
+	Euston	09.41			REVRSE		
+	Euston		11.10	1D85			4150
+	Chester	13.11			REVRSE		
+	Chester		13.35	1A38			4710
+	Euston	15.36			REVRSE		
+	Euston		16.33	1P21			6220
+	Preston	19.02	19.05	1P21			6220
+	BlckpoolN	19.31			REVRSE		
+	BlckpoolN		19+50	5D21			
+	Preston	20+14	20+17	5D21			
+	Crewe	21+40	21+48	5D21			
+	BrtnUNCmd	22+42			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	776.14	(ETY)	150.43	(TOT)	926.57
+ 
+ 
+	Diagram :	VW	503	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		04+55	5C47			
+	Crewe	05+00	05+03	5C47			
+	Preston	05+49	06+00	5C47			
+	CarnfUDGL	06+21			REVRSE		
+	CarnfUDGL		06+37	5C47			
+	Lancaster	06+44	06.58	9G47			3567
+	New St.	09.05					
+	New St.		09.30	1B11		503(1)\515(2)	5617
+	Euston	10.56			REVRSE		
+	Euston		11.23	9J17		515(1)\503(2)	5137
+	New St.	12.45			REVRSE		
+	New St.		13.30	1B23			5737
+	Euston	14.56			REVRSE		
+	Euston		15.43	9S85		503(1)\508(2)	3167
+	New St.	17.05	17.15	9S85		503(1)\508(2)	3167
+	Glas Cen.	21.12			REVRSE		
+	Glas Cen.		21+53	5S85		508(1)\503(2)	
+	PoldieCMD	22+55			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	874.46	(ETY)	110.48	(TOT)	984.94
+ 
+ 
+	Diagram :	VW	504	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		11.50	1A35			4061
+	Chester	13.23	13.30	1A35		510(1)\504(2)	4061
+	Euston	15.42			REVRSE		
+	Euston		16.08	1D90			4561
+	Chester	18.12			REVRSE		
+	Chester		18.35	1A75			4181
+	Euston	20.41			REVRSE		
+	Euston		22+03	5D75			
+	New St.	00+30			REVRSE		
+	New St.		00+40	5D75			
+	BrtnUNCmd	01+05			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	622.01	(ETY)	141.84	(TOT)	763.85
+ 
+ 
+	Diagram :	VW	504	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		09+30	5D28		513(1)\504(2)	
+	Crewe	10+34	10+56	5D28		513(1)\504(2)	
+	Chester	11+20			REVRSE		
+	Chester		11.35	1A28		504(1)\513(2)	4650
+	Euston	13.37			REVRSE		
+	Euston		16.23	9G32			5310
+	New St.	17.45	17+52	5D32			
+	Stafford	18+42			REVRSE		
+	Stafford		19+04	5D32			
+	BrtnUNCmd	19+38			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	292.11	(ETY)	121.45	(TOT)	413.56
+ 
+ 
+	Diagram :	VW	504	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		06+29	5S39		504(1)\505(2)	
+	New St.	07+03	07.16	1S39		504(1)\505(2)	1027
+	Glas Cen.	11.15			REVRSE		
+	Glas Cen.		12.00	9M55		505(1)\504(2)	3667
+	New St.	16.05	16.10	9M55		505(1)\504(2)	3667
+	Euston	17.33			REVRSE		
+	Euston		18.03	9G37		504(1)\505(2)	5347
+	New St.	19.26	19.35	9G37		504(1)\505(2)	5347
+	Wolvrhptn	19.55			REVRSE		
+	Wolvrhptn		20+05	5D37		505(1)\504(2)	
+	New St.	20+23	20+26	5D37		505(1)\504(2)	
+	BrtnUNCmd	21+02			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	834.79	(ETY)	64.69	(TOT)	899.48
+ 
+ 
+	Diagram :	VW	505	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		08+50	5M54		505(1)\511(2)	
+	Edinburgh	10+18			REVRSE		
+	Edinburgh		10.51	9M54		511(1)\505(2)	3501
+	New St.	15.06	15.10	9M54		511(1)\505(2)	3501
+	Euston	16.37			REVRSE		
+	Euston		17.08	1D91		505(1)\511(2)	4591
+	Chester	19.20	19.29	1D91			4591
+	Holyhead	21.03					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	672.30	(ETY)	57.43	(TOT)	729.73
+ 
+ 
+	Diagram :	VW	505	FSX	22/05/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		04+53	5P46			
+	Crewe	04+58	05+03	5P46			
+	Preston	05+53			REVRSE		
+	Preston		06.17	9G46			1540
+	New St.	07.56			REVRSE		
+	New St.		08+12	5W48			
+	Wolvrhptn	09+02	09+03	5W48			
+	Wolves Cs	09+06			REVRSE		
+	Wolves Cs		09+19	5W48			
+	Wolvrhptn	09+22	09.45	9M48		505(1)\506(2)	3500
+	New St.	10.05	10.10	9M48		505(1)\506(2)	3500
+	Euston	11.34			REVRSE		
+	Euston		12.10	1D86			4180
+	Chester	14.13			REVRSE		
+	Chester		14.35	1A43		505(1)\517(2)	4740
+	Euston	16.37			REVRSE		
+	Euston		17.10	1D91		517(1)\505(2)	4330
+	Chester	19.16			REVRSE		
+	Chester		19.35	1A68			4860
+	Euston	21.40			REVRSE		
+	Euston		22.00	1K77			4440
+	Crewe	00.17			REVRSE		
+	Crewe		00+32	5K77			
+	Crewe CS	00+37			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1104.21	(ETY)	67.99	(TOT)	1172.20
+ 
+ 
+	Diagram :	VW	505	FO	26/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		04+53	5P46			
+	Crewe	04+58	05+03	5P46			
+	Preston	05+53			REVRSE		
+	Preston		06.17	9G46			1540
+	New St.	07.56			REVRSE		
+	New St.		08+12	5W48			
+	Wolvrhptn	09+02	09+03	5W48			
+	Wolves Cs	09+06			REVRSE		
+	Wolves Cs		09+19	5W48			
+	Wolvrhptn	09+22	09.45	9M48		505(1)\506(2)	3500
+	New St.	10.05	10.10	9M48		505(1)\506(2)	3500
+	Euston	11.34			REVRSE		
+	Euston		12.43	9S70		506(1)\505(2)	3120
+	New St.	14.05	14.15	9S70		506(1)\505(2)	3120
+	Edinburgh	18.22			REVRSE		
+	Edinburgh		18.52	9M62		505(1)\506(2)	1820
+	New St.	22.52	23+17	5D62		505(1)\506(2)	
+	BrtnUNCmd	23+45			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	933.78	(ETY)	94.34	(TOT)	1028.12
+ 
+ 
+	Diagram :	VW	505	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		06+29	5S39		504(1)\505(2)	
+	New St.	07+03	07.16	1S39		504(1)\505(2)	1027
+	Glas Cen.	11.15			REVRSE		
+	Glas Cen.		12.00	9M55		505(1)\504(2)	3667
+	New St.	16.05	16.10	9M55		505(1)\504(2)	3667
+	Euston	17.33			REVRSE		
+	Euston		18.03	9G37		504(1)\505(2)	5347
+	New St.	19.26	19.35	9G37		504(1)\505(2)	5347
+	Wolvrhptn	19.55			REVRSE		
+	Wolvrhptn		20+05	5D37		505(1)\504(2)	
+	New St.	20+23	20+26	5D37		505(1)\504(2)	
+	BrtnUNCmd	21+02			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	834.79	(ETY)	64.69	(TOT)	899.48
+ 
+ 
+	Diagram :	VW	506	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		11+19	5M56		501(1)\506(2)	
+	Edinburgh	12+24			REVRSE		
+	Edinburgh		12.51	9M56		506(1)\501(2)	3561
+	New St.	17.06	17.10	9M56		506(1)\501(2)	3561
+	Euston	18.36			REVRSE		
+	Euston		20.00	9G58		501(1)\506(2)	5271
+	New St.	21.24			REVRSE		
+	New St.		21+48	5D58		506(1)\501(2)	
+	BrtnUNCmd	22+21			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	521.56	(ETY)	84.23	(TOT)	605.79
+ 
+ 
+	Diagram :	VW	506	FSX	22/05/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		05+16	5M48			
+	Glas Cen.	05+25			REVRSE		
+	Glas Cen.		05.50	9M48			3500
+	Wolvrhptn	09.32	09.45	9M48		505(1)\506(2)	3500
+	New St.	10.05	10.10	9M48		505(1)\506(2)	3500
+	Euston	11.34			REVRSE		
+	Euston		11+52	5M48			
+	EustonUCS	11+57			REVRSE		
+	EustonUCS		12+12	5S70			
+	Euston	12+17			REVRSE		
+	Euston		12.43	9S70			3120
+	New St.	14.05	14.15	9S70			3120
+	Edinburgh	18.22			REVRSE		
+	Edinburgh		18.52	9M62			1820
+	New St.	22.52	23+17	5D62			
+	BrtnUNCmd	23+45			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1113.33	(ETY)	29.45	(TOT)	1142.78
+ 
+ 
+	Diagram :	VW	506	FO	26/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		05+16	5M48			
+	Glas Cen.	05+25			REVRSE		
+	Glas Cen.		05.50	9M48			3500
+	Wolvrhptn	09.32	09.45	9M48		505(1)\506(2)	3500
+	New St.	10.05	10.10	9M48		505(1)\506(2)	3500
+	Euston	11.34			REVRSE		
+	Euston		12.43	9S70		506(1)\505(2)	3120
+	New St.	14.05	14.15	9S70		506(1)\505(2)	3120
+	Edinburgh	18.22			REVRSE		
+	Edinburgh		18.52	9M62		505(1)\506(2)	1820
+	New St.	22.52	23+17	5D62		505(1)\506(2)	
+	BrtnUNCmd	23+45			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1113.33	(ETY)	28.95	(TOT)	1142.28
+ 
+ 
+	Diagram :	VW	506	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		05+08	5M50		507(1)\506(2)	
+	Mothrwell	05+24			REVRSE		
+	Mothrwell		05+34	5M50		506(1)\507(2)	
+	Edinburgh	06+28			REVRSE		
+	Edinburgh		06.52	9M50		507(1)\506(2)	3547
+	New St.	11.05	11.10	9M50		507(1)\506(2)	3547
+	Euston	12.33			REVRSE		
+	Euston		13.43	9S77		506(1)\507(2)	3127
+	New St.	15.05	15.15	9S77		506(1)\507(2)	3127
+	Glas Cen.	19.15			REVRSE		
+	Glas Cen.		19+53	5S77		507(1)\506(2)	
+	PoldieCMD	20+55			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	819.56	(ETY)	83.56	(TOT)	903.12
+ 
+ 
+	Diagram :	VW	507	Su	21/05/17	18/06/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		09+55	5C93		516(1)\507(2)	
+	Crewe	10+00	10.27	1C93			1011
+	Lancaster	11.36			REVRSE		
+	Lancaster		11.58	9A53			3521
+	New St.	14.06	14.10	9A53			3521
+	Euston	15.37			REVRSE		
+	Euston		16.40	9S93			3081
+	New St.	18.05	18.16	9S93			3081
+	Edinburgh	22.19			REVRSE		
+	Edinburgh		22+43	5S93			
+	Glas Cen.	23+58			REVRSE		
+	Glas Cen.		00+04	5S93			
+	PoldieCMD	00+14			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	718.22	(ETY)	59.98	(TOT)	778.20
+ 
+ 
+	Diagram :	VW	507	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+30	5J21		507(1)\508(2)	
+	New St.	04+55	04+57	5J21		507(1)\508(2)	
+	Wolvrhptn	05+21	05+38	5J21			
+	Shrewsbry	06+17			REVRSE		
+	Shrewsbry		06.39	1R21			5590
+	Wolvrhptn	07.17	07.24	1R21		508(1)\507(2)	5590
+	New St.	07.47	07.50	1R21		508(1)\507(2)	5590
+	Euston	09.13			REVRSE		
+	Euston		10.23	9J14		507(1)\508(2)	5130
+	New St.	11.45	11.53	9J14			5130
+	Wolvrhptn	12.09	12.11	9J14			5130
+	Shrewsbry	12.51			REVRSE		
+	Shrewsbry		13+06	5G14			
+	Wolvrhptn	13+51			REVRSE		
+	Wolvrhptn		14+02	5J68			
+	Shrewsbry	14+41	14+43	5J68			
+	Coton Hil	14+47			REVRSE		
+	Coton Hil		15+05	5J68			
+	Shrewsbry	15+09	15.24	1B68			5840
+	Wolvrhptn	16.01	16.04	1B68			5840
+	New St.	16.21	16.30	1B68		508(1)\507(2)	5840
+	Euston	17.56			REVRSE		
+	Euston		18.23	9J38		507(1)\508(2)	5370
+	New St.	19.45	19.50	9J38		507(1)\508(2)	5370
+	Wolvrhptn	20.10	20.19	9J38			5370
+	Shrewsbry	20.55			REVRSE		
+	Shrewsbry		21+14	5D38			
+	Wolvrhptn	21+45	22+05	5D38		507(1)\508(2)	
+	New St.	22+22	22+26	5D38		507(1)\508(2)	
+	BrtnUNCmd	22+57			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	623.36	(ETY)	198.58	(TOT)	821.94
+ 
+ 
+	Diagram :	VW	507	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		05+08	5M50		507(1)\506(2)	
+	Mothrwell	05+24			REVRSE		
+	Mothrwell		05+34	5M50		506(1)\507(2)	
+	Edinburgh	06+28			REVRSE		
+	Edinburgh		06.52	9M50		507(1)\506(2)	3547
+	New St.	11.05	11.10	9M50		507(1)\506(2)	3547
+	Euston	12.33			REVRSE		
+	Euston		13.43	9S77		506(1)\507(2)	3127
+	New St.	15.05	15.15	9S77		506(1)\507(2)	3127
+	Glas Cen.	19.15			REVRSE		
+	Glas Cen.		19+53	5S77		507(1)\506(2)	
+	PoldieCMD	20+55			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	819.56	(ETY)	83.56	(TOT)	903.12
+ 
+ 
+	Diagram :	VW	507	Su	25/06/17	10/09/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		09+55	5C93		516(1)\507(2)	
+	Crewe	10+00	10.27	1C93			1011
+	Lancaster	11.29			REVRSE		
+	Lancaster		11.58	9A53			3521
+	New St.	14.06	14.10	9A53			3521
+	Euston	15.37			REVRSE		
+	Euston		16.40	9S93			3081
+	New St.	18.05	18.16	9S93			3081
+	Edinburgh	22.19			REVRSE		
+	Edinburgh		22+43	5S93			
+	Glas Cen.	23+58			REVRSE		
+	Glas Cen.		00+04	5S93			
+	PoldieCMD	00+14			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	718.22	(ETY)	59.98	(TOT)	778.20
+ 
+ 
+	Diagram :	VW	507	Su	17/09/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		09+55	5C93		516(1)\507(2)	
+	Crewe	10+00	10.27	1C93			1011
+	Lancaster	11.29			REVRSE		
+	Lancaster		11.58	9A53			3521
+	New St.	14.06	14.10	9A53			3521
+	Euston	15.37			REVRSE		
+	Euston		16.40	9S93			3081
+	New St.	18.05	18.16	9S93			3081
+	Edinburgh	22.19			REVRSE		
+	Edinburgh		22+43	5S93			
+	Glas Cen.	23+58			REVRSE		
+	Glas Cen.		00+04	5S93			
+	PoldieCMD	00+14			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	718.22	(ETY)	59.98	(TOT)	778.20
+ 
+ 
+	Diagram :	VW	508	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		09+27	5D83		508(1)\513(2)	
+	Crewe	10+20	10.42	1D83		508(1)\513(2)	4501
+	Holyhead	12.40			REVRSE		
+	Holyhead		13.55	1A51		513(1)\508(2)	4121
+	Euston	17.41			REVRSE		
+	Euston		18.08	1D92		508(1)\513(2)	4621
+	Chester	20.11	20.18	1D92			4621
+	Holyhead	21.54					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	633.03	(ETY)	47.30	(TOT)	680.33
+ 
+ 
+	Diagram :	VW	508	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+30	5J21		507(1)\508(2)	
+	New St.	04+55	04+57	5J21		507(1)\508(2)	
+	Wolvrhptn	05+21					
+	Wolvrhptn		05+41	5R21			
+	Oxley CMD	05+48			REVRSE		
+	Oxley CMD		07+00	5R21			
+	Wolvrhptn	07+08	07.24	1R21		508(1)\507(2)	5590
+	New St.	07.47	07.50	1R21		508(1)\507(2)	5590
+	Euston	09.13			REVRSE		
+	Euston		10.23	9J14		507(1)\508(2)	5130
+	New St.	11.45			REVRSE		
+	New St.		12.30	1B44			5720
+	Euston	13.56			REVRSE		
+	Euston		14.23	9G26			5250
+	New St.	15.45			REVRSE		
+	New St.		16.30	1B68		508(1)\507(2)	5840
+	Euston	17.56			REVRSE		
+	Euston		18.23	9J38		507(1)\508(2)	5370
+	New St.	19.45	19.50	9J38		507(1)\508(2)	5370
+	Wolvrhptn	20.10	20+30	5G38			
+	Oxley CMD	20+34			REVRSE		
+	Oxley CMD		21+46	5G38			
+	Wolvrhptn	21+51					
+	Wolvrhptn		22+05	5D38		507(1)\508(2)	
+	New St.	22+22	22+26	5D38		507(1)\508(2)	
+	BrtnUNCmd	22+57			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	703.48	(ETY)	83.58	(TOT)	787.06
+ 
+ 
+	Diagram :	VW	508	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		09+05	5W51			
+	Wolvrhptn	10+21	10+22	5W51			
+	Wolves Cs	10+25			REVRSE		
+	Wolves Cs		11+19	5W51			
+	Wolvrhptn	11+22	11.45	9M51		508(1)\502(2)	3597
+	New St.	12.05	12.10	9M51		508(1)\502(2)	3597
+	Euston	13.32			REVRSE		
+	Euston		15.43	9S85		503(1)\508(2)	3167
+	New St.	17.05	17.15	9S85		503(1)\508(2)	3167
+	Glas Cen.	21.12			REVRSE		
+	Glas Cen.		21+53	5S85		508(1)\503(2)	
+	PoldieCMD	22+55			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	536.79	(ETY)	62.15	(TOT)	598.94
+ 
+ 
+	Diagram :	VW	509	Su	21/05/17	25/06/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		12.50	1A43			4091
+	Chester	14.26	14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.20			REVRSE		
+	Glas Cen.		23+49	5S97		514(1)\509(2)	
+	PoldieCMD	23+59			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	674.64	(ETY)	2.15	(TOT)	676.79
+ 
+ 
+	Diagram :	VW	509	MO	22/05/17	04/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+26	5A81		516(1)\509(2)	
+	New St.	04+52			REVRSE		
+	New St.		05+05	5A81			
+	Euston	06+48			REVRSE		
+	Euston		07.10	1D81			4030
+	Chester	09.11			REVRSE		
+	Chester		09.35	1A18			4590
+	Euston	11.36			REVRSE		
+	Euston		13.43	9S77		515(1)\509(2)	3140
+	New St.	15.05	15.15	9S77		515(1)\509(2)	3140
+	Glas Cen.	19.22			REVRSE		
+	Glas Cen.		19+43	5S77		509(1)\515(2)	
+	PoldieCMD	19+53			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	769.27	(ETY)	147.60	(TOT)	916.87
+ 
+ 
+	Diagram :	VW	509	TWThO	23/05/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03+57	5A81		516(1)\509(2)	
+	New St.	04+27			REVRSE		
+	New St.		04+40	5A81			
+	Euston	06+23			REVRSE		
+	Euston		07.10	1D81			4030
+	Chester	09.11			REVRSE		
+	Chester		09.35	1A18			4590
+	Euston	11.36			REVRSE		
+	Euston		13.43	9S77		515(1)\509(2)	3140
+	New St.	15.05	15.15	9S77		515(1)\509(2)	3140
+	Glas Cen.	19.22			REVRSE		
+	Glas Cen.		19+43	5S77		509(1)\515(2)	
+	PoldieCMD	19+53			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	769.27	(ETY)	140.10	(TOT)	909.37
+ 
+ 
+	Diagram :	VW	509	FO	26/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03+57	5A81		516(1)\509(2)	
+	New St.	04+27			REVRSE		
+	New St.		04+40	5A81			
+	Euston	06+23			REVRSE		
+	Euston		07.10	1D81			4030
+	Chester	09.11			REVRSE		
+	Chester		09.35	1A18			4590
+	Euston	11.36			REVRSE		
+	Euston		13.43	9S77		519(1)\509(2)	3140
+	New St.	15.05	15.15	9S77		519(1)\509(2)	3140
+	Glas Cen.	19.22			REVRSE		
+	Glas Cen.		19+43	5S77		509(1)\519(2)	
+	PoldieCMD	19+53			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	769.27	(ETY)	140.10	(TOT)	909.37
+ 
+ 
+	Diagram :	VW	509	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		05+48	5D72		509(1)\512(2)	
+	Crewe	05+53	06+00	5D72		509(1)\512(2)	
+	Chester	06+20			REVRSE		
+	Chester		07.17	1A72		512(1)\509(2)	4547
+	Euston	09.30			REVRSE		
+	Euston		10.10	1D24			4037
+	Chester	12.17			REVRSE		
+	Chester		12.35	1A35			4627
+	Euston	14.36			REVRSE		
+	Euston		15.10	1D89			4307
+	Chester	17.11			REVRSE		
+	Chester		17.35	1K60			4777
+	Crewe	17.54	18+04	5K60			
+	Crewe CS	18+09			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	737.76	(ETY)	21.97	(TOT)	759.73
+ 
+ 
+	Diagram :	VW	509	Su	02/07/17	27/08/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		12.50	1A43			4091
+	Chester	14.26	14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.38			REVRSE		
+	Glas Cen.		00+02	5S97		514(1)\509(2)	
+	PoldieCMD	00+12			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	674.64	(ETY)	2.15	(TOT)	676.79
+ 
+ 
+	Diagram :	VW	509	Su	03/09/17	08/10/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		12.50	1A43			4091
+	Chester	14.26	14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.47			REVRSE		
+	Glas Cen.		00+10	5S97		514(1)\509(2)	
+	PoldieCMD	00+20			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	674.64	(ETY)	2.15	(TOT)	676.79
+ 
+ 
+	Diagram :	VW	509	Su	15/10/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		12.50	1A43			4091
+	Chester	14.26	14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.47			REVRSE		
+	Glas Cen.		00+10	5S97		514(1)\509(2)	
+	PoldieCMD	00+20			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	674.64	(ETY)	2.15	(TOT)	676.79
+ 
+ 
+	Diagram :	VW	510	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		11+00	5D35		510(1)\514(2)	
+	New St.	11+27	11+30	5D35		510(1)\514(2)	
+	Crewe	12+18	12+45	5D35			
+	Chester	13+04			REVRSE		
+	Chester		13.30	1A35		510(1)\504(2)	4061
+	Euston	15.42			REVRSE		
+	Euston		16+11	5A35			
+	EustonUCS	16+16			REVRSE		
+	EustonUCS		18+27	5D93			
+	Euston	18+32			REVRSE		
+	Euston		19.08	1D93			4651
+	Holyhead	22.53					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	442.85	(ETY)	99.30	(TOT)	542.15
+ 
+ 
+	Diagram :	VW	510	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		04.48	1R13			4500
+	Crewe	06.46	06.53	1R13		511(1)\510(2)	4500
+	Euston	08.34			REVRSE		
+	Euston		09.10	1D83		510(1)\511(2)	4090
+	Holyhead	12.47			REVRSE		
+	Holyhead		13.58	1A48		511(1)\510(2)	4780
+	Euston	17.37			REVRSE		
+	Euston		18.10	1D92		510(1)\511(2)	4360
+	Chester	20.14					
+	Chester		20.22	1J32			4360
+	WrexhmGen	20.38	21+10	5K32			
+	Croes NeA	21+13			REVRSE		
+	Croes NeA		21+23	5K32			
+	Crewe	22+14	22+27	5K32		516(1)\510(2)	
+	Crewe CS	22+32			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	982.25	(ETY)	34.58	(TOT)	1016.83
+ 
+ 
+	Diagram :	VW	510	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		06.52	1A15			4507
+	Euston	10.36			REVRSE		
+	Euston		11.10	1D85			4217
+	Chester	13.11			REVRSE		
+	Chester		13.35	1A40			4657
+	Euston	15.36			REVRSE		
+	Euston		16.03	9G31			5277
+	New St.	17.26			REVRSE		
+	New St.		17.50	1B36			5877
+	Euston	19.15			REVRSE		
+	Euston		19.43	9G42			5397
+	New St.	21.13	21.17	9G42			5397
+	Wolvrhptn	21.37			REVRSE		
+	Wolvrhptn		22+06	5D42		510(1)\515(2)	
+	New St.	22+23	22+28	5D42		510(1)\515(2)	
+	BrtnUNCmd	22+59			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	973.75	(ETY)	39.69	(TOT)	1013.44
+ 
+ 
+	Diagram :	VW	511	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	PoldieCMD		08+50	5M54		505(1)\511(2)	
+	Edinburgh	10+18			REVRSE		
+	Edinburgh		10.51	9M54		511(1)\505(2)	3501
+	New St.	15.06	15.10	9M54		511(1)\505(2)	3501
+	Euston	16.37			REVRSE		
+	Euston		17.08	1D91		505(1)\511(2)	4591
+	Chester	19.20			REVRSE		
+	Chester		19.35	1K91			4201
+	Crewe	19.56	20+04	5K91			
+	Crewe CS	20+09			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	608.89	(ETY)	57.88	(TOT)	666.77
+ 
+ 
+	Diagram :	VW	511	FSX	22/05/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		03+50	5N14			
+	Crewe	03+55	04+03	5N14			
+	Preston	04+53			REVRSE		
+	Preston		06.00	1K14			4500
+	Crewe	06.42					
+	Crewe		06.53	1R13		511(1)\510(2)	4500
+	Euston	08.34			REVRSE		
+	Euston		09.10	1D83		510(1)\511(2)	4090
+	Holyhead	12.47			REVRSE		
+	Holyhead		13.58	1A48		511(1)\510(2)	4780
+	Euston	17.37			REVRSE		
+	Euston		18.10	1D92		510(1)\511(2)	4360
+	Chester	20.14	20.26	1D92			4360
+	Holyhead	21.56					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1000.12	(ETY)	51.39	(TOT)	1051.51
+ 
+ 
+	Diagram :	VW	511	FO	26/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		03+50	5N14			
+	Crewe	03+55	04+03	5N14			
+	Preston	04+53			REVRSE		
+	Preston		06.00	1K14			4500
+	Crewe	06.42					
+	Crewe		06.53	1R13		511(1)\510(2)	4500
+	Euston	08.34			REVRSE		
+	Euston		09.10	1D83		510(1)\511(2)	4090
+	Holyhead	12.47			REVRSE		
+	Holyhead		13.58	1A48		511(1)\510(2)	4780
+	Euston	17.37			REVRSE		
+	Euston		18.10	1D92		510(1)\511(2)	4360
+	Chester	20.14	20.26	1D92			4360
+	Holyhead	21.56			REVRSE		
+	Holyhead		22+25	5K92			
+	Crewe	00+01	00+07	5K92			
+	Crewe CS	00+10			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1000.12	(ETY)	157.49	(TOT)	1157.61
+ 
+ 
+	Diagram :	VW	511	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		03+50	5C04		513(1)\511(2)	
+	Crewe	03+55	04+03	5C04		513(1)\511(2)	
+	Preston	04+50	04+57	5C04		513(1)\511(2)	
+	Lancaster	05+11			REVRSE		
+	Lancaster		05.38	1A04		511(1)\513(2)	6517
+	Euston	08.14			REVRSE		
+	Euston		09.10	1D83		513(1)\511(2)	4157
+	Holyhead	12.47			REVRSE		
+	Holyhead		13.58	1A50		511(1)\513(2)	4717
+	Euston	17.36			REVRSE		
+	Euston		19.03	9G40		516(1)\511(2)	5377
+	New St.	20.24	20.42	9G40		516(1)\511(2)	5377
+	Wolvrhptn	21.08			REVRSE		
+	Wolvrhptn		21+27	5D40		511(1)\516(2)	
+	New St.	21+47	21+48	5D40		511(1)\516(2)	
+	BrtnUNCmd	22+14			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	883.26	(ETY)	112.06	(TOT)	995.32
+ 
+ 
+	Diagram :	VW	512	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		10.55	1A27			4031
+	Euston	14.41			REVRSE		
+	Euston		15.08	1D89			4531
+	Chester	17.11			REVRSE		
+	Chester		17.35	1A67			4151
+	Euston	19.42			REVRSE		
+	Euston		20+11	5D67		512(1)\515(2)	
+	New St.	21+54			REVRSE		
+	New St.		22+08	5D67		515(1)\512(2)	
+	BrtnUNCmd	22+37			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	622.01	(ETY)	139.75	(TOT)	761.76
+ 
+ 
+	Diagram :	VW	512	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		05+42	5S34			
+	Crewe	05+46	05.57	1S34			1000
+	Glas Cen.	09.12			REVRSE		
+	Glas Cen.		10.00	9M53			3600
+	New St.	14.05	14.10	9M53			3600
+	Euston	15.33			REVRSE		
+	Euston		16.10	1D90			4300
+	Bangor	19.18	19+21	5D90			
+	Bangr S37	19+23			REVRSE		
+	Bangr S37		19+29	5D90			
+	Bangor	19+31			REVRSE		
+	Bangor		19+59	5G00			
+	Bangr S37	20+01			REVRSE		
+	Bangr S37		20+07	5G00			
+	Bangor	20+09	20.20	1G00			4890
+	New St.	22.48					
+	New St.		23+21	5D44		512(1)\501(2)	
+	BrtnUNCmd	00+01			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1026.81	(ETY)	27.76	(TOT)	1054.57
+ 
+ 
+	Diagram :	VW	512	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		05+48	5D72		509(1)\512(2)	
+	Crewe	05+53	06+00	5D72		509(1)\512(2)	
+	Chester	06+20			REVRSE		
+	Chester		07.17	1A72		512(1)\509(2)	4547
+	Euston	09.30			REVRSE		
+	Euston		12.10	1D86		514(1)\512(2)	4247
+	Chester	14.15			REVRSE		
+	Chester		14.35	1A45		512(1)\514(2)	4687
+	Euston	16.36			REVRSE		
+	Euston		17.10	1D91		514(1)\512(2)	4367
+	Chester	19.11	19+24	5D80			
+	ChesterSJ	19+26			REVRSE		
+	ChesterSJ		19+40	5D80			
+	Chester	19+42	20.35	1K80		513(1)\512(2)	4807
+	Crewe	20.54	21+20	5K80		513(1)\512(2)	
+	Crewe CS	21+25			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	737.76	(ETY)	22.97	(TOT)	760.73
+ 
+ 
+	Diagram :	VW	513	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		09+27	5D83		508(1)\513(2)	
+	Crewe	10+20	10.42	1D83		508(1)\513(2)	4501
+	Holyhead	12.40			REVRSE		
+	Holyhead		13.55	1A51		513(1)\508(2)	4121
+	Euston	17.41			REVRSE		
+	Euston		18.08	1D92		508(1)\513(2)	4621
+	Chester	20.11			REVRSE		
+	Chester		20.37	1K80			4221
+	Crewe	20.56	21+04	5K80			
+	Crewe CS	21+09			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	569.62	(ETY)	47.75	(TOT)	617.37
+ 
+ 
+	Diagram :	VW	513	MTWO	22/05/17	06/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		09+30	5D28		513(1)\504(2)	
+	Crewe	10+34	10+56	5D28		513(1)\504(2)	
+	Chester	11+20			REVRSE		
+	Chester		11.35	1A28		504(1)\513(2)	4650
+	Euston	13.37			REVRSE		
+	Euston		14.10	1D88			4240
+	Chester	16.10			REVRSE		
+	Chester		16.35	1A53		516(1)\513(2)	4800
+	Euston	18.37			REVRSE		
+	Euston		19.10	1D93		513(1)\516(2)	4390
+	Chester	21.17	21.24	1D93			4390
+	Holyhead	23.00					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	801.17	(ETY)	68.42	(TOT)	869.59
+ 
+ 
+	Diagram :	VW	513	ThFO	25/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		09+30	5D28		513(1)\504(2)	
+	Crewe	10+34	10+56	5D28		513(1)\504(2)	
+	Chester	11+20			REVRSE		
+	Chester		11.35	1A28		504(1)\513(2)	4650
+	Euston	13.37			REVRSE		
+	Euston		14.10	1D88			4240
+	Chester	16.10			REVRSE		
+	Chester		16.35	1A53		516(1)\513(2)	4800
+	Euston	18.37			REVRSE		
+	Euston		19.10	1D93		513(1)\516(2)	4390
+	Chester	21.17	21.24	1D93			4390
+	Holyhead	23.00					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	801.17	(ETY)	68.42	(TOT)	869.59
+ 
+ 
+	Diagram :	VW	513	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		03+50	5C04		513(1)\511(2)	
+	Crewe	03+55	04+03	5C04		513(1)\511(2)	
+	Preston	04+50	04+57	5C04		513(1)\511(2)	
+	Lancaster	05+11			REVRSE		
+	Lancaster		05.38	1A04		511(1)\513(2)	6517
+	Euston	08.14			REVRSE		
+	Euston		09.10	1D83		513(1)\511(2)	4157
+	Holyhead	12.47			REVRSE		
+	Holyhead		13.58	1A50		511(1)\513(2)	4717
+	Euston	17.36			REVRSE		
+	Euston		18.10	1D32			4097
+	Chester	20.09			REVRSE		
+	Chester		20.35	1K80		513(1)\512(2)	4807
+	Crewe	20.54	21+20	5K80		513(1)\512(2)	
+	Crewe CS	21+25			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	957.70	(ETY)	72.82	(TOT)	1030.52
+ 
+ 
+	Diagram :	VW	514	Su	21/05/17	25/06/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		11+00	5D35		510(1)\514(2)	
+	New St.	11+27	11+30	5D35		510(1)\514(2)	
+	Crewe	12+18					
+	Crewe		13+40	5D93			
+	Chester	14+02			REVRSE		
+	Chester		14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.20			REVRSE		
+	Glas Cen.		23+49	5S97		514(1)\509(2)	
+	PoldieCMD	23+59			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	590.11	(ETY)	100.95	(TOT)	691.06
+ 
+ 
+	Diagram :	VW	514	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		05.51	1R24			4530
+	Chester	07.25	07.35	1R24		503(1)\514(2)	4530
+	Euston	09.41			REVRSE		
+	Euston		10.10	1D84			4120
+	Chester	12.11			REVRSE		
+	Chester		12.35	1A33			4680
+	Euston	14.38			REVRSE		
+	Euston		15.10	1D89			4270
+	Chester	17.11			REVRSE		
+	Chester		17.35	1A58			4830
+	Euston	19.38			REVRSE		
+	Euston		20.10	1D94			4420
+	Chester	22.13			REVRSE		
+	Chester		22+36	5K94			
+	Crewe	22+56	23+09	5K94			
+	Crewe CS	23+14			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1159.49	(ETY)	21.57	(TOT)	1181.06
+ 
+ 
+	Diagram :	VW	514	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		07.55	1A20			4537
+	Euston	11.36			REVRSE		
+	Euston		12.10	1D86		514(1)\512(2)	4247
+	Chester	14.15			REVRSE		
+	Chester		14.35	1A45		512(1)\514(2)	4687
+	Euston	16.36			REVRSE		
+	Euston		17.10	1D91		514(1)\512(2)	4367
+	Chester	19.11	19.18	1D91			4367
+	Holyhead	20.54					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	885.70	(ETY)	0.00	(TOT)	885.70
+ 
+ 
+	Diagram :	VW	514	Su	02/07/17	27/08/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		11+00	5D35		510(1)\514(2)	
+	New St.	11+27	11+30	5D35		510(1)\514(2)	
+	Crewe	12+18					
+	Crewe		13+40	5D93			
+	Chester	14+02			REVRSE		
+	Chester		14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.38			REVRSE		
+	Glas Cen.		00+02	5S97		514(1)\509(2)	
+	PoldieCMD	00+12			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	590.11	(ETY)	100.95	(TOT)	691.06
+ 
+ 
+	Diagram :	VW	514	Su	03/09/17	08/10/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		11+00	5D35		510(1)\514(2)	
+	New St.	11+27	11+30	5D35		510(1)\514(2)	
+	Crewe	12+18					
+	Crewe		13+40	5D93			
+	Chester	14+02			REVRSE		
+	Chester		14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.47			REVRSE		
+	Glas Cen.		00+10	5S97		514(1)\509(2)	
+	PoldieCMD	00+20			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	590.11	(ETY)	100.95	(TOT)	691.06
+ 
+ 
+	Diagram :	VW	514	Su	15/10/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		11+00	5D35		510(1)\514(2)	
+	New St.	11+27	11+30	5D35		510(1)\514(2)	
+	Crewe	12+18					
+	Crewe		13+40	5D93			
+	Chester	14+02			REVRSE		
+	Chester		14.33	1A43		514(1)\509(2)	4091
+	Euston	16.41			REVRSE		
+	Euston		17.40	9S97		509(1)\514(2)	3101
+	New St.	19.05	19.16	9S97		509(1)\514(2)	3101
+	Glas Cen.	23.47			REVRSE		
+	Glas Cen.		00+10	5S97		514(1)\509(2)	
+	PoldieCMD	00+20			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	590.11	(ETY)	100.95	(TOT)	691.06
+ 
+ 
+	Diagram :	VW	515	Su	21/05/17	18/06/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		08+29	5S35			
+	New St.	08+57	09.20	1S35			1031
+	Glas Cen.	13.26			REVRSE		
+	Glas Cen.		13.55	9M57			3581
+	New St.	18.05	18.10	9M57			3581
+	Euston	19.37			REVRSE		
+	Euston		20+11	5D67		512(1)\515(2)	
+	New St.	21+54			REVRSE		
+	New St.		22+08	5D67		515(1)\512(2)	
+	BrtnUNCmd	22+37			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	708.95	(ETY)	164.75	(TOT)	873.70
+ 
+ 
+	Diagram :	VW	515	FSX	22/05/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		06.55	1A13			4560
+	Euston	10.37			REVRSE		
+	Euston		10+55	5A13			
+	EustonUCS	11+00			REVRSE		
+	EustonUCS		12+01	5S77			
+	Euston	12+06			REVRSE		
+	Euston		13.43	9S77		515(1)\509(2)	3140
+	New St.	15.05	15.15	9S77		515(1)\509(2)	3140
+	Glas Cen.	19.22			REVRSE		
+	Glas Cen.		19+43	5S77		509(1)\515(2)	
+	PoldieCMD	19+53			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	674.64	(ETY)	2.65	(TOT)	677.29
+ 
+ 
+	Diagram :	VW	515	FO	26/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	(Shunt from Holyhead LIP under local instruction)
+	Holyhead		06.55	1A13			4560
+	Euston	10.37			REVRSE		
+	Euston		10+55	5A13			
+	EustonUCS	11+00			REVRSE		
+	EustonUCS		11+41	5D86			
+	Euston	11+46			REVRSE		
+	Euston		12.10	1D86			4180
+	Chester	14.13			REVRSE		
+	Chester		14.35	1A43		515(1)\517(2)	4740
+	Euston	16.37			REVRSE		
+	Euston		17.10	1D91		517(1)\515(2)	4330
+	Chester	19.16			REVRSE		
+	Chester		19.35	1A68			4860
+	Euston	21.40			REVRSE		
+	Euston		22.00	1K77			4440
+	Crewe	00.17			REVRSE		
+	Crewe		00+32	5K77			
+	Crewe CS	00+37			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1138.39	(ETY)	0.95	(TOT)	1139.34
+ 
+ 
+	Diagram :	VW	515	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		05+54	5J11			
+	New St.	06+23	06+28	5J11			
+	Wolvrhptn	06+57	07+10	5J11			
+	Shrewsbry	07+45			REVRSE		
+	Shrewsbry		08.18	1B11			5617
+	Wolvrhptn	09.00	09.05	1B11			5617
+	New St.	09.21	09.30	1B11		503(1)\515(2)	5617
+	Euston	10.56			REVRSE		
+	Euston		11.23	9J17		515(1)\503(2)	5137
+	New St.	12.45	12.53	9J17			5137
+	Wolvrhptn	13.09	13.11	9J17			5137
+	Shrewsbry	13.54	14+02	5B32			
+	Coton Hil	14+06			REVRSE		
+	Coton Hil		14+55	5B32			
+	Shrewsbry	14+59	15.24	1B32			5827
+	Wolvrhptn	16.01	16.04	1B32			5827
+	New St.	16.21	16.30	1B32		502(1)\515(2)	5827
+	Euston	17.56			REVRSE		
+	Euston		18.23	9J38		515(1)\502(2)	5357
+	New St.	19.45	19.50	9J38		515(1)\502(2)	5357
+	Wolvrhptn	20.10	20.19	9J38			5357
+	Shrewsbry	20.55			REVRSE		
+	Shrewsbry		21+10	5G38			
+	Wolvrhptn	21+51					
+	Wolvrhptn		22+06	5D42		510(1)\515(2)	
+	New St.	22+23	22+28	5D42		510(1)\515(2)	
+	BrtnUNCmd	22+59			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	623.36	(ETY)	141.34	(TOT)	764.70
+ 
+ 
+	Diagram :	VW	515	Su	25/06/17	10/09/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		08+29	5S35			
+	New St.	08+57	09.20	1S35			1031
+	Glas Cen.	13.25			REVRSE		
+	Glas Cen.		13.55	9M57			3581
+	New St.	18.05	18.10	9M57			3581
+	Euston	19.37			REVRSE		
+	Euston		20+11	5D67		512(1)\515(2)	
+	New St.	21+54			REVRSE		
+	New St.		22+08	5D67		515(1)\512(2)	
+	BrtnUNCmd	22+37			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	708.95	(ETY)	164.75	(TOT)	873.70
+ 
+ 
+	Diagram :	VW	515	Su	17/09/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		08+29	5S35			
+	New St.	08+57	09.20	1S35			1031
+	Glas Cen.	13.25			REVRSE		
+	Glas Cen.		13.55	9M57			3581
+	New St.	18.05	18.10	9M57			3581
+	Euston	19.37			REVRSE		
+	Euston		20+11	5D67		512(1)\515(2)	
+	New St.	21+54			REVRSE		
+	New St.		22+08	5D67		515(1)\512(2)	
+	BrtnUNCmd	22+37			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	708.95	(ETY)	164.75	(TOT)	873.70
+ 
+ 
+	Diagram :	VW	516	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	Crewe CS		09+55	5C93		516(1)\507(2)	
+	Crewe	10+00					
+	Crewe		10+24	5D19			
+	Chester	10+42	10+55	5D19			
+	ChesterSJ	10+57			REVRSE		
+	ChesterSJ		11+03	5D19			
+	Chester	11+05	11.28	1A19			4001
+	Euston	13.43			REVRSE		
+	Euston		14.20	9G24			5101
+	New St.	15.45			REVRSE		
+	New St.		16.30	1B53		516(1)\517(2)	5681
+	Euston	17.57			REVRSE		
+	Euston		19.00	9J52		517(1)\516(2)	5241
+	New St.	20.24	20.27	9J52		517(1)\516(2)	5241
+	Wolvrhptn	20.47	21+06	5K50			
+	Crewe	21+40			REVRSE		
+	Crewe		21+48	5K50			
+	Crewe CS	21+53			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	530.90	(ETY)	62.76	(TOT)	593.66
+ 
+ 
+	Diagram :	VW	516	MO	22/05/17	04/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+26	5A81		516(1)\509(2)	
+	New St.	04+52					
+	New St.		05.30	1D80			4000
+	Holyhead	08.20			REVRSE		
+	Holyhead		08.55	1A23			4620
+	Euston	12.37			REVRSE		
+	Euston		13.10	1D87			4210
+	Chester	15.10			REVRSE		
+	Chester		16.35	1A53		516(1)\513(2)	4800
+	Euston	18.37			REVRSE		
+	Euston		19.10	1D93		513(1)\516(2)	4390
+	Chester	21.17			REVRSE		
+	Chester		21+46	5K93			
+	Crewe	22+06					
+	Crewe		22+27	5K32		516(1)\510(2)	
+	Crewe CS	22+32			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	959.49	(ETY)	46.57	(TOT)	1006.06
+ 
+ 
+	Diagram :	VW	516	TWO	23/05/17	06/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03+57	5A81		516(1)\509(2)	
+	New St.	04+27					
+	New St.		05.30	1D80			4000
+	Holyhead	08.20			REVRSE		
+	Holyhead		08.55	1A23			4620
+	Euston	12.37			REVRSE		
+	Euston		13.10	1D87			4210
+	Chester	15.10			REVRSE		
+	Chester		16.35	1A53		516(1)\513(2)	4800
+	Euston	18.37			REVRSE		
+	Euston		19.10	1D93		513(1)\516(2)	4390
+	Chester	21.17			REVRSE		
+	Chester		21+46	5K93			
+	Crewe	22+06					
+	Crewe		22+27	5K32		516(1)\510(2)	
+	Crewe CS	22+32			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	959.49	(ETY)	46.57	(TOT)	1006.06
+ 
+ 
+	Diagram :	VW	516	ThFO	25/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03+57	5A81		516(1)\509(2)	
+	New St.	04+27					
+	New St.		05.30	1D80			4000
+	Holyhead	08.20			REVRSE		
+	Holyhead		08.55	1A23			4620
+	Euston	12.37			REVRSE		
+	Euston		13.10	1D87			4210
+	Chester	15.10			REVRSE		
+	Chester		16.35	1A53		516(1)\513(2)	4800
+	Euston	18.37			REVRSE		
+	Euston		19.10	1D93		513(1)\516(2)	4390
+	Chester	21.17			REVRSE		
+	Chester		21+46	5K93			
+	Crewe	22+06					
+	Crewe		22+27	5K32		516(1)\510(2)	
+	Crewe CS	22+32			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	959.49	(ETY)	46.57	(TOT)	1006.06
+ 
+ 
+	Diagram :	VW	516	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+46	5D80		516(1)\501(2)	
+	New St.	05+15	05.30	1D80			4127
+	Holyhead	08.20			REVRSE		
+	Holyhead		08.55	1A25			4567
+	Euston	12.36			REVRSE		
+	Euston		13.10	1D87			4067
+	Chester	15.09			REVRSE		
+	Chester		16.35	1A55			4747
+	Euston	18.37			REVRSE		
+	Euston		19.03	9G40		516(1)\511(2)	5377
+	New St.	20.24	20.42	9G40		516(1)\511(2)	5377
+	Wolvrhptn	21.08			REVRSE		
+	Wolvrhptn		21+27	5D40		511(1)\516(2)	
+	New St.	21+47	21+48	5D40		511(1)\516(2)	
+	BrtnUNCmd	22+14			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	906.17	(ETY)	64.69	(TOT)	970.86
+ 
+ 
+	Diagram :	VW	517	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		13+04	5J53			
+	New St.	13+31	13+40	5J53			
+	Wolvrhptn	13+56	14+10	5J53			
+	Shrewsbry	14+54	14+56	5J53			
+	Coton Hil	15+00			REVRSE		
+	Coton Hil		15+06	5J53			
+	Shrewsbry	15+10	15.24	1B53			5681
+	Wolvrhptn	16.01	16.04	1B53			5681
+	New St.	16.20	16.30	1B53		516(1)\517(2)	5681
+	Euston	17.57			REVRSE		
+	Euston		19.00	9J52		517(1)\516(2)	5241
+	New St.	20.24	20.27	9J52		517(1)\516(2)	5241
+	Wolvrhptn	20.47	20.56	9J52			5241
+	Shrewsbry	21.35			REVRSE		
+	Shrewsbry		21+50	5K52			
+	Wolvrhptn	22+27			REVRSE		
+	Wolvrhptn		22+34	5K52			
+	Crewe	23+26			REVRSE		
+	Crewe		23+37	5K52			
+	Crewe CS	23+42			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	311.68	(ETY)	139.13	(TOT)	450.81
+ 
+ 
+	Diagram :	VW	517	FSX	22/05/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+42	5R03		518(1)\517(2)	
+	New St.	05+23			REVRSE		
+	New St.		05.45	1R03		517(1)\518(2)	5540
+	Euston	07.29			REVRSE		
+	Euston		08.10	1D82			4060
+	Holyhead	11.55			REVRSE		
+	Holyhead		12.52	1A43			4740
+	Chester	14.28	14.35	1A43		505(1)\517(2)	4740
+	Euston	16.37			REVRSE		
+	Euston		17.10	1D91		517(1)\505(2)	4330
+	Chester	19.16	19.23	1D91			4330
+	Holyhead	20.58					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	906.11	(ETY)	25.00	(TOT)	931.11
+ 
+ 
+	Diagram :	VW	517	FO	26/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+42	5R03		518(1)\517(2)	
+	New St.	05+23			REVRSE		
+	New St.		05.45	1R03		517(1)\518(2)	5540
+	Euston	07.29			REVRSE		
+	Euston		08.10	1D82			4060
+	Holyhead	11.55			REVRSE		
+	Holyhead		12.52	1A43			4740
+	Chester	14.28	14.35	1A43		515(1)\517(2)	4740
+	Euston	16.37			REVRSE		
+	Euston		17.10	1D91		517(1)\515(2)	4330
+	Chester	19.16	19.23	1D91			4330
+	Holyhead	20.58					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	906.11	(ETY)	25.00	(TOT)	931.11
+ 
+ 
+	Diagram :	VW	517	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		05+44	5A22			
+	LichNJ Ll	06+04			REVRSE		
+	LichNJ Ll		06+12	5A22			
+	Euston	07+23			REVRSE		
+	Euston		08.10	1D22			4007
+	Chester	10.10			REVRSE		
+	Chester		11.35	1A30			4597
+	Euston	13.36			REVRSE		
+	Euston		14.10	1D88			4277
+	Holyhead	17.48					
+	(Shunt to Holyhead LIP under local instruction)
+					FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	622.01	(ETY)	122.76	(TOT)	744.77
+ 
+ 
+	Diagram :	VW	518	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+	Diagram :	VW	518	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		04+42	5R03		518(1)\517(2)	
+	New St.	05+23			REVRSE		
+	New St.		05.45	1R03		517(1)\518(2)	5540
+	Euston	07.29			REVRSE		
+	Euston		08.03	9G07			5060
+	New St.	09.26			REVRSE		
+	New St.		09.50	1B28			5650
+	Euston	11.15			REVRSE		
+	Euston		11.43	9S65			3100
+	New St.	13.05	13.15	9S65			3100
+	Glas Cen.	17.15			REVRSE		
+	Glas Cen.		17.40	9M61			1800
+	New St.	21.54	22+07	5D61			
+	BrtnUNCmd	22+50			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	1049.89	(ETY)	52.40	(TOT)	1102.29
+ 
+ 
+	Diagram :	VW	518	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+	Diagram :	VW	519	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+	Diagram :	VW	519	FSX	22/05/17	07/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+	Diagram :	VW	519	FO	26/05/17	10/11/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		06+37	5P76			
+	Crewe	07+44	07+47	5P76			
+	Preston	08+46	08+53	5P76			
+	PrestnStL	08+55			REVRSE		
+	PrestnStL		09+31	5P76			
+	Preston	09+33	09.52	1A76			6630
+	Euston	12.30			REVRSE		
+	Euston		13.43	9S77		519(1)\509(2)	3140
+	New St.	15.05	15.15	9S77		519(1)\509(2)	3140
+	Glas Cen.	19.22			REVRSE		
+	Glas Cen.		19+43	5S77		509(1)\519(2)	
+	PoldieCMD	19+53			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	625.19	(ETY)	101.44	(TOT)	726.63
+ 
+ 
+	Diagram :	VW	519	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+	Diagram :	VW	519	FO	17/11/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		06+37	5P76			
+	Crewe	07+44	07+47	5P76			
+	Preston	08+46	09+22	5P76			
+	PrestnStL	09+24			REVRSE		
+	PrestnStL		09+31	5P76			
+	Preston	09+33	09.52	1A76			6630
+	Euston	12.30			REVRSE		
+	Euston		13.43	9S77		519(1)\509(2)	3140
+	New St.	15.05	15.15	9S77		519(1)\509(2)	3140
+	Glas Cen.	19.22			REVRSE		
+	Glas Cen.		19+43	5S77		509(1)\519(2)	
+	PoldieCMD	19+53			FUEL		
+							
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	625.19	(ETY)	101.44	(TOT)	726.63
+ 
+ 
+	Diagram :	VW	520	Su	21/05/17	03/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+	Diagram :	VW	520	SX	22/05/17	08/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+	Diagram :	VW	520	SO	27/05/17	09/12/17	LTP
+	Fleet   :	221/0
+ 
+	OFF     :		
+	
+	BrtnUNCmd		03.00		STABLD		
+	** Maintenance Set **
+	BrtnUNCmd	03.00					
+ 
+	WORKS   :		
+ 
+	MILES   :(LD)	0.00	(ETY)	0.00	(TOT)	0.00
+ 
+ 
+ 
+ 
+- End of report -
+ 
+
+ 
+Printed on 04/05/17	Page 1
+
+
