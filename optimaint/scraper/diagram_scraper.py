@@ -1,7 +1,7 @@
 import re
 import os
 
-from optimaint.diagram_scraper import config
+from optimaint.scraper import config
 
 
 OPERATORS_MAP = {
@@ -14,6 +14,7 @@ def parse_diagram(diagram_str):
     parsing_stations = "OUT"
     lines = diagram_str.split("\n")
     for index, line in enumerate(lines):
+        print(line)
         if "Diagram :" in line:
             # diagram info
             line = line.split(": ")[1].split()
