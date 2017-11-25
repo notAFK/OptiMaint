@@ -1,54 +1,62 @@
 from contextlib import contextmanager
 
-from optimaint.db.config import BASE, SESSION, ENGINE
-from sqlalchemy import Column, Integer, String, Date
+from optimaint.db.config import BASE, SESSION
+from sqlalchemy import Column, Integer, String, Date, ForeignKey
+
 
 class Exam(BASE):
     __tablename__ = 'exams'
 
-    id = Column(Integer, primary_key=True)
-    name = Column(String)
-    exam_type = Column(String)
-    mile_range = Column(Integer, nullable=True)
-    day_ramge = Column(Integer, nullable=True)
-    mile_tolerance = Column(Integer, nullable=True)
-    day_tolerance = Column(Integer, nullable=True)
+    # C1, C2, S1-8, M1-8
+    name = Column(String(2), primary_key=True)
+
+    # C, S, M
+    etype = Column(String(1))
+
+    # Point when train should come for exam
+    req_mileage = Column(Integer)
+    req_days = Column(Integer)
+
+    # Tolerance for when train should come
+    tol_mileage = Column(Integer)
+    tol_days = Column(Integer)
 
 
 class Diagram(BASE):
     __tablename__ = 'diagrams'
 
-    id = Column(Integer, primary_key=True)
-    hash = Column(String)
+    # Unique ID created using a hash function on (ID, Days, Range Dates)
+    uuid = Column(Integer, primary_key=True)
+
+    # ID is of form XXX digits (eg: 501)
+    id = Column(Integer)
+
     company = Column(String)
-    start_station = Column(String)
-    end_station = Column(String)
-    nr_cars = Column(Integer)
+    no_cars = Column(Integer)
+
     period_start = Column(Date)
     period_end = Column(Date)
+    period_days = Column(String)
+
+    start_station = Column(String, ForeignKey('stations.uuid'))
+    end_station = Column(String, ForeignKey('stations.uuid'))
 
 
-class Station(object):
+class Station(BASE):
     __tablename__ = 'stations'
 
-    id = Column(Integer, primary_key=True)
+    uuid = Column(Integer, primary_key=True)
     name = Column(String)
     company = Column(String)
     train_limit = Column(Integer)
 
 
-class Train(object):
+class Train(BASE):
     __tablename__ = 'trains'
 
-    id = Column(Integer, primary_key=True)
+    uuid = Column(Integer, primary_key=True)
     company = Column(String)
     no_cars = Column(Integer)
-    miles_since_core = Column(Integer)
-    last_core = Column(Integer)
-    days_since_service = Column(Integer)
-    last_service = Column(Integer)
-    miles_since_mv = Column(Integer)
-    days_since_mv = Column(Integer)
 
 
 @contextmanager
@@ -58,13 +66,7 @@ def session():
         yield s
         s.commit()
     except Exception as e:
+        print('EXCEPTION:')
         print(e)
     finally:
         s.close()
-
-def create_schema():
-    BASE.metadata.create_all(ENGINE)
-
-
-if __name__ == "__main__":
-    create_schema()
