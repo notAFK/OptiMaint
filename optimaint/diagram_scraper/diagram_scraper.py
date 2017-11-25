@@ -1,4 +1,5 @@
 import re
+import os
 
 from optimaint.diagram_scraper import config
 
@@ -41,11 +42,12 @@ def parse_diagram(diagram_str):
             start_station = line[0]
             start_time = line[1]
             parsing_stations = "IN"
+    print('PARSED {}'.format(diagram_id))
 
 
 def main():
-    ltp = ""
-    f = open(config.DATA_FOLDER + "\\test_ltp.txt", "r")
+    ltp = "test_ltp.txt"
+    f = open(os.path.join(config.DATA_FOLDER, ltp), "r")
 
     diagrams = [""]
 
@@ -62,5 +64,6 @@ def main():
         diagrams[i] = re.sub(r"[\n]+", "\n", diagrams[i])
         parse_diagram(diagrams[i])
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
