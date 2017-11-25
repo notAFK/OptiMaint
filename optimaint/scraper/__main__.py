@@ -1,3 +1,3 @@
-from optimaint.scraper.diagram_scraper import main
+from optimaint.scraper.diagram_scraper import parse_all_diagrams
 
-main()
+print(parse_all_diagrams())

@@ -1,5 +1,5 @@
 from optimaint.db.config import BASE
-from sqlalchemy import Column, Integer, String, Date, ForeignKey
+from sqlalchemy import Column, Integer, String, Date, ForeignKey, Float
 
 
 class Exam(BASE):
@@ -12,11 +12,11 @@ class Exam(BASE):
     etype = Column(String(1))
 
     # Point when train should come for exam
-    req_mileage = Column(Integer)
+    req_mileage = Column(Float)
     req_days = Column(Integer)
 
     # Tolerance for when train should come
-    tol_mileage = Column(Integer)
+    tol_mileage = Column(Float)
     tol_days = Column(Integer)
 
     # Short or long duration
@@ -27,19 +27,19 @@ class Diagram(BASE):
     __tablename__ = 'diagrams'
 
     # Unique ID created using a hash function on (ID, Days, Range Dates)
-    uuid = Column(Integer, primary_key=True, unique=True)
+    uuid = Column(Integer, primary_key=True, unique=True, autoincrement=True)
 
     # ID is of form XXX digits (eg: 501)
     id = Column(Integer)
 
-    total_mileage = Column(Integer)
+    total_mileage = Column(Float)
 
     company = Column(String)
     no_cars = Column(Integer)
 
-    period_start = Column(Date)
-    period_end = Column(Date)
-    period_days = Column(String)
+    # period_start = Column(Date)
+    # period_end = Column(Date)
+    # period_days = Column(String)
 
     schedule_uuid = Column(Integer, ForeignKey('schedules.uuid'))
 
