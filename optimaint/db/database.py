@@ -21,6 +21,9 @@ class Exam(BASE):
     tol_mileage = Column(Integer)
     tol_days = Column(Integer)
 
+    # Short or long duration
+    duration = Column(String)
+
 
 class Diagram(BASE):
     __tablename__ = 'diagrams'
@@ -31,6 +34,8 @@ class Diagram(BASE):
     # ID is of form XXX digits (eg: 501)
     id = Column(Integer)
 
+    total_mileage = Column(Integer)
+
     company = Column(String)
     no_cars = Column(Integer)
 
@@ -38,8 +43,7 @@ class Diagram(BASE):
     period_end = Column(Date)
     period_days = Column(String)
 
-    start_station = Column(String, ForeignKey('stations.uuid'))
-    end_station = Column(String, ForeignKey('stations.uuid'))
+    schedule_uuid = Column(Integer, ForeignKey('schedules.uuid'))
 
 
 class Station(BASE):
@@ -57,6 +61,35 @@ class Train(BASE):
     uuid = Column(Integer, primary_key=True)
     company = Column(String)
     no_cars = Column(Integer)
+
+
+class Assignment(BASE):
+    __tablename__ = 'assignments'
+
+    uuid = Column(Integer, primary_key=True)
+    train_uuid = Column(Integer, ForeignKey('trains.uuid'))
+    diagram_uuid = Column(Integer, ForeignKey('diagrams.uuid'))
+
+
+class ExamEntry(BASE):
+    __tablename__ = 'exam_logs'
+
+    uuid = Column(Integer, primary_key=True)
+    train_uuid = Column(Integer, ForeignKey('trains.uuid'))
+    exam_uuid = Column(Integer, ForeignKey('exams.uuid'))
+    date = Column(Date)
+
+
+class Schedule(BASE):
+    __tablename__ = 'schedules'
+
+    uuid = Column(Integer, primary_key=True)
+
+    start_station_uuid = Column(Integer, ForeignKey('stations.uuid'))
+    end_station_uuid = Column(Integer, ForeignKey('stations.uuid'))
+
+    start_time = Column(Date)
+    end_time = Column(Date)
 
 
 @contextmanager
