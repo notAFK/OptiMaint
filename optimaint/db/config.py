@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 
-DB_ENV = "local"  # can be test
+DB_ENV = "prod"  # can be test
 if DB_ENV == "local":
     _db = ":memory:"
 else:

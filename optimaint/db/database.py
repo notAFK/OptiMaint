@@ -76,7 +76,7 @@ class ExamEntry(BASE):
 
     uuid = Column(Integer, primary_key=True)
     train_uuid = Column(Integer, ForeignKey('trains.uuid'))
-    exam_uuid = Column(Integer, ForeignKey('exams.uuid'))
+    exam_name = Column(Integer, ForeignKey('exams.name'))
     date = Column(Date)
 
 
