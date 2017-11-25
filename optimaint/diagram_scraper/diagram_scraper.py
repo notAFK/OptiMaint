@@ -19,7 +19,8 @@ def parse_diagram(diagram_str):
             day_info = line[2]
             period_start = line[3]
             period_end = line[4]
-        if "OFF"
+        if "OFF":
+            pass
 
 
 
