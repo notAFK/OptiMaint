@@ -16,7 +16,10 @@ def parse_diagram(diagram_str):
             line = line.split(": ").split()
             operator = OPERATORS_MAP[line[0]]
             no_carriages = int(line[1][0])
-            
+            day_info = line[2]
+            period_start = line[3]
+            period_end = line[4]
+        if "OFF"
 
 
 
