@@ -47,6 +47,3 @@ def parse_all():
 
 
 parse_all()
-
-# with session() as s:
-#     s.execute('SELECT arrivals.diagram, departures.miles, arrivals.exam FROM arrivals JOIN departures ON departures.finish_depot = arrivals.station_id AND departures.date = arrivals.date AND departures.unit = arrivals.unit;')
