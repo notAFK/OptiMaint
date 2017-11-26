@@ -65,8 +65,9 @@ def parse_location(book, sh, x, y):
             diag, hc, frm, artime, unit, exam, comment = diag.value, hc.value, frm.value, artime.value, unit.value, exam.value, comment.value
             unit = int(unit)
             print(diag, unit)
-            arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam)
+            arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam, date=date)
             s.add(arv)
+            # s.commit()
         else:
             continue
 
@@ -107,10 +108,14 @@ def parse_location(book, sh, x, y):
             diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag.value, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
             unit = int(unit)
             print(miles, type(miles))
-            miles = float(miles)
+            try:
+                miles = float(miles)
+            except Exception:
+                continue
             # print(diag, unit)
-            dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time)
+            dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time, date=date)
             s.add(dep)
+            # s.commit()
         else:
             continue
     s.commit()

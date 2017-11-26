@@ -3,7 +3,7 @@ import os
 from sqlalchemy import create_engine, MetaData
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy import Column, Integer, String, Float
+from sqlalchemy import Column, Integer, String, Float, Date
 
 
 _db = os.path.abspath(
@@ -27,6 +27,7 @@ class Arrival(BASE):
     arrival_time = Column(String)
     unit = Column(Integer)
     exam = Column(String)
+    date = Column(Date)
 
 
 class Departure(BASE):
@@ -42,6 +43,7 @@ class Departure(BASE):
     time = Column(String)
     miles = Column(Float)
     unit = Column(Integer)
+    date = Column(Date)
 
 
 BASE.metadata.create_all(ENGINE)
