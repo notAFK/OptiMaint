@@ -13,3 +13,25 @@ body {
   margin-top: 20px;
   font-family: monospace;
 }
+
+/* Timetable */
+
+.timetable {
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+.timetable-header {
+  color: white;
+  background-color: #FF5722;
+}
+
+.timetable-header th {
+  height: 100px;
+}
