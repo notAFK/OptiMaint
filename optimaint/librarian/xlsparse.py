@@ -1,6 +1,6 @@
 import xlrd
 import datetime
-# from optimaint.librarian.db import Arrival, Departure, SESSION
+from optimaint.librarian.db import Arrival, Departure, SESSION
 
 
 ABRV = ['EC', 'XW', 'MA', 'CZ', 'BK', 'LA', 'PZ', 'EH']
@@ -20,13 +20,14 @@ def parse_location(book, sh, x, y):
     id = sh.cell_value(rowx=x, colx=8)
     # name = sh.cell_value(rowx=x, colx=0).split('(')[0]
 
+    s = SESSION()
+
     # FUCK THIS FUCKING FORMAT
     date = sh.cell_value(rowx=x+1, colx=3)
-    if date == '':
+    if str(date).strip() == '':
         return
-    print('DATE', int(date))
-
     date = datetime.datetime(*xlrd.xldate_as_tuple(date, book.datemode))
+    print(date)
 
     # print(id, name)
 
@@ -64,8 +65,8 @@ def parse_location(book, sh, x, y):
             diag, hc, frm, artime, unit, exam, comment = diag.value, hc.value, frm.value, artime.value, unit.value, exam.value, comment.value
             unit = int(unit)
             print(diag, unit)
-            # arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam)
-            # s.add(arv)
+            arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam)
+            s.add(arv)
         else:
             continue
 
@@ -100,11 +101,16 @@ def parse_location(book, sh, x, y):
             if unit.value == 'U/C':
                 continue
 
+            if miles.value == '':
+                continue
+
             diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag.value, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
             unit = int(unit)
+            print(miles, type(miles))
+            miles = float(miles)
             # print(diag, unit)
-            # dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time)
-            # s.add(dep)
+            dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time)
+            s.add(dep)
         else:
             continue
-    # s.commit()
+    s.commit()
