@@ -60,3 +60,21 @@ td, th {
 .timetable-item h5 {
   padding-top: 10px;
 }
+
+/* Map Button */
+.map-button {
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.google-map {
+  height: 600px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}

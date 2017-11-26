@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const Title = () => {
+const TitleMap = () => {
   return (
     <div className="title">
-      <Link to="/map" className="btn btn-primary pull-xs-right map-button">Map</Link>
+      <Link to="/" className="btn btn-primary pull-xs-right map-button">Services</Link>
       <h1>OptiMaint</h1>
     </div>
   );
 }
 
-export default Title;
+export default TitleMap;

@@ -7,6 +7,8 @@ import reduxPromise from 'redux-promise';
 
 import reducers from './reducers';
 import Timetable from './containers/timetable';
+import DepoMap from './containers/depo_map';
+import GoogleMap from './components/google_map';
 
 const createStoreWithMiddleware = applyMiddleware(reduxPromise)(createStore);
 
@@ -14,6 +16,7 @@ ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
     <BrowserRouter>
       <Switch>
+        <Route path="/map" component={DepoMap} />
         <Route path="/" component={Timetable} />
       </Switch>
     </BrowserRouter>
