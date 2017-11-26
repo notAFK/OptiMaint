@@ -127,10 +127,12 @@ class AnnTrain(BASE):
 
 
 class AnnRoute(BASE):
-    __tablename__ = 'ann_route'
+    _tablename_ = 'ann_route'
 
     uuid = Column(Integer, primary_key=True)
+
     id = Column(String)
+    unit = Column(Integer)
     total_mileage = Column(Float)
     company = Column(String)
     no_cars = Column(Integer)
