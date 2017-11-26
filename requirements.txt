@@ -4,3 +4,4 @@ PyYAML==3.12
 scipy==1.0.0
 six==1.11.0
 SQLAlchemy==1.1.15
+flask=0.12.2

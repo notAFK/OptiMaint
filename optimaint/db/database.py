@@ -90,14 +90,22 @@ class Schedule(BASE):
     end_time = Column(Date)
 
 
-# @contextmanager
-# def session():
-#     s = SESSION()
-#     try:
-#         yield s
-#         s.commit()
-#     except Exception as e:
-#         print('EXCEPTION:')
-#         print(e)
-#     finally:
-#         s.close()
+class AnnTrain(BASE):
+    __tablename__ = 'ann_trains'
+
+    uuid = Column(String, primary_key=True)
+    
+
+
+
+@contextmanager
+def session():
+    s = SESSION()
+    try:
+        yield s
+        s.commit()
+    except Exception as e:
+        print('EXCEPTION:')
+        print(e)
+    finally:
+        s.close()
