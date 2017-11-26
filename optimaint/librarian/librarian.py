@@ -6,6 +6,7 @@ import optimaint.librarian.xlsparse as xlsparse
 
 
 DATA_DIR_2017 = os.path.abspath('history/2017')
+DATA_DIR_2016 = os.path.abspath('history/2016')
 DATA_DIR_2015 = os.path.abspath('history/2015')
 MONTH_LIST = ['july', 'august', 'september', 'october']
 
@@ -35,11 +36,13 @@ def parse_month(data_set):
 
 
 def parse_all():
-    for month in MONTH_LIST:
-        parse_month(os.path.join(DATA_DIR_2017, month))
     for dir in os.listdir(DATA_DIR_2015):
         print(dir)
         parse_month(os.path.join(DATA_DIR_2015, dir))
+    for dir in os.listdir(DATA_DIR_2016):
+        parse_month(os.path.join(DATA_DIR_2016, dir))
+    for month in MONTH_LIST:
+        parse_month(os.path.join(DATA_DIR_2017, month))
 
 
 parse_all()
