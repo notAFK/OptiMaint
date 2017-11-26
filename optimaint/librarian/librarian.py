@@ -44,8 +44,9 @@ def parse_all():
         parse_month(os.path.join(DATA_DIR_2016, dir))
     for month in MONTH_LIST:
         parse_month(os.path.join(DATA_DIR_2017, month))
-    with session() as s:
-        s.execute('SELECT arrivals.diagram, departures.miles, arrivals.exam FROM arrivals JOIN departures ON departures.finish_depot = arrivals.station_id AND departures.date = arrivals.date AND departures.unit = arrivals.unit;')
 
 
 parse_all()
+
+# with session() as s:
+#     s.execute('SELECT arrivals.diagram, departures.miles, arrivals.exam FROM arrivals JOIN departures ON departures.finish_depot = arrivals.station_id AND departures.date = arrivals.date AND departures.unit = arrivals.unit;')
