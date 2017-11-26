@@ -1,4 +1,5 @@
 import xlrd
+import datetime
 # from optimaint.librarian.db import Arrival, Departure, SESSION
 
 
@@ -6,16 +7,16 @@ ABRV = ['EC', 'XW', 'MA', 'CZ', 'BK', 'LA', 'PZ', 'EH']
 # s = SESSION()
 
 
-def parse_sheet(sh):
+def parse_sheet(book, sh):
     # print('  ', sh.name, sh.nrows, sh.ncols)
     print(sh.name)
     for rx in range(sh.nrows):
         rval = sh.cell_value(rowx=rx, colx=8)
         if rval in ABRV:
-            parse_location(sh, rx, 0)
+            parse_location(book, sh, rx, 0)
 
 
-def parse_location(sh, x, y):
+def parse_location(book, sh, x, y):
     id = sh.cell_value(rowx=x, colx=8)
     # name = sh.cell_value(rowx=x, colx=0).split('(')[0]
 
@@ -24,6 +25,8 @@ def parse_location(sh, x, y):
     if date == '':
         return
     print('DATE', int(date))
+
+    date = datetime.datetime(*xlrd.xldate_as_tuple(date, book.datemode))
 
     # print(id, name)
 

@@ -21,7 +21,7 @@ def parse_week(week):
     print('---------', week[-14:-4], '---------')
 
     for sindex in range(1, 8):
-        xlsparse.parse_sheet(week_book.sheet_by_index(sindex))
+        xlsparse.parse_sheet(week_book, week_book.sheet_by_index(sindex))
 
 
 def parse_month(data_set):
