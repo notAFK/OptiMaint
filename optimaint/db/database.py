@@ -95,15 +95,34 @@ class Schedule(BASE):
 class AnnTrain(BASE):
     __tablename__ = 'ann_trains'
 
-    uuid = Column(String, primary_key=True)
+    # OK -- P
+    uuid = Column(Integer, primary_key=True)
+
+    # OK -- R
     next_service = Column(String)
+
+    # OK -- V
     last_service_miles = Column(String)
+
+    # OK -- W
     last_service_days = Column(String)
+
+    # OK -- AD
     next_core = Column(String)
+
+    # OK -- AE
     last_core_miles = Column(String)
+
+    # OK -- AF
     last_core_days = Column(String)
+
+    # OK -- AM
     next_mv = Column(String)
+
+    # OK -- AN
     last_mv_miles = Column(String)
+
+    # OK -- AO
     last_mv_days = Column(String)
 
 
