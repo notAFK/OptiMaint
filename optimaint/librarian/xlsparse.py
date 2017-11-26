@@ -18,6 +18,7 @@ def parse_sheet(book, sh):
 
 def parse_location(book, sh, x, y):
     id = sh.cell_value(rowx=x, colx=8)
+
     # name = sh.cell_value(rowx=x, colx=0).split('(')[0]
 
     s = SESSION()
@@ -62,10 +63,15 @@ def parse_location(book, sh, x, y):
             if unit.value == 'U/C':
                 continue
 
+            diag = diag.replace(' ', '')
+            if len(diag) != 5:
+                continue
+            no_cars = int(diag[2])
+
             diag, hc, frm, artime, unit, exam, comment = diag.value, hc.value, frm.value, artime.value, unit.value, exam.value, comment.value
             unit = int(unit)
             print(diag, unit)
-            arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam, date=date)
+            arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam, date=date, no_cars=no_cars)
             s.add(arv)
             # s.commit()
         else:
@@ -105,6 +111,11 @@ def parse_location(book, sh, x, y):
             if miles.value == '':
                 continue
 
+            diag = diag.replace(' ', '')
+            if len(diag) != 5:
+                continue
+            no_cars = int(diag[2])
+
             diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag.value, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
             unit = int(unit)
             print(miles, type(miles))
@@ -113,7 +124,7 @@ def parse_location(book, sh, x, y):
             except Exception:
                 continue
             # print(diag, unit)
-            dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time, date=date)
+            dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time, date=date, no_cars=no_cars)
             s.add(dep)
             # s.commit()
         else:

@@ -21,6 +21,7 @@ class Arrival(BASE):
     station_id = Column(String)
 
     uuid = Column(Integer, primary_key=True, unique=True, autoincrement=True)
+    no_cars = Column(Integer)
     diagram = Column(String)
     hc = Column(String)
     from_station = Column(String)
@@ -36,6 +37,7 @@ class Departure(BASE):
 
     station_id = Column(String)
 
+    no_cars = Column(Integer)
     uuid = Column(Integer, primary_key=True, unique=True, autoincrement=True)
     diagram = Column(String)
     hc = Column(String)
