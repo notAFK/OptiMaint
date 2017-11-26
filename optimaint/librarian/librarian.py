@@ -16,7 +16,7 @@ def parse_week(week):
         print('Why is the number of sheets not 12?!')
         sys.exit()
 
-    # print('---------', week[-15:], '---------')
+    print('---------', week[-15:], '---------')
 
     for sindex in range(1, 8):
         xlsparse.parse_sheet(week_book.sheet_by_index(sindex))

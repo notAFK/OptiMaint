@@ -1,11 +1,13 @@
 import xlrd
+from optimaint.librarian.db import Arrival, Departure, SESSION
 
 
 ABRV = ['EC', 'XW', 'MA', 'CZ', 'BK', 'LA', 'PZ', 'EH']
+s = SESSION()
 
 
 def parse_sheet(sh):
-    # print('  ', sh.name, sh.nrows, sh.ncols)
+    print('  ', sh.name, sh.nrows, sh.ncols)
     for rx in range(sh.nrows):
         rval = sh.cell_value(rowx=rx, colx=8)
         if rval in ABRV:
@@ -14,7 +16,7 @@ def parse_sheet(sh):
 
 def parse_location(sh, x, y):
     id = sh.cell_value(rowx=x, colx=8)
-    name = sh.cell_value(rowx=x, colx=0).split('(')[0]
+    # name = sh.cell_value(rowx=x, colx=0).split('(')[0]
 
     # FUCK THIS FUCKING FORMAT
     # date = sh.cell_value(rowx=x+1, colx=3)
@@ -34,8 +36,17 @@ def parse_location(sh, x, y):
             if str(diag.value).strip() == '' or unit.value == '':
                 continue
 
-            if diag.value == 'Diagram':
+            if diag.value == 'Diagram' or diag.value == 'Signed (Depot representative) :':
                 break
+
+            if diag.value == 'VSTP':
+                continue
+
+            if unit.ctype is xlrd.XL_CELL_TEXT:
+                continue
+
+            if unit.value == 'DO NOT COVER':
+                continue
 
             if diag.ctype == 0 or unit.ctype == 0:
                 continue
@@ -44,6 +55,10 @@ def parse_location(sh, x, y):
                 continue
 
             print(diag, unit)
+            diag, hc, frm, artime, unit, exam, comment = diag.value, hc.value, frm.value, artime.value, unit.value, exam.value, comment.value
+            unit = int(unit)
+            arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam)
+            s.add(arv)
         else:
             continue
 
@@ -63,6 +78,15 @@ def parse_location(sh, x, y):
             if diag.value == 'Diagram' or diag.value == 'Signed (Depot representative) :':
                 break
 
+            if diag.value == 'VSTP':
+                continue
+
+            if unit.ctype is xlrd.XL_CELL_TEXT:
+                continue
+
+            if unit.value == 'DO NOT COVER':
+                continue
+
             if diag.ctype == 0 or unit.ctype == 0:
                 continue
 
@@ -70,9 +94,10 @@ def parse_location(sh, x, y):
                 continue
 
             print(diag, unit)
+            diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag.value, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
+            unit = int(unit)
+            dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time)
+            s.add(dep)
         else:
             break
-
-
-def parse_row():
-    pass
+    s.commit()
