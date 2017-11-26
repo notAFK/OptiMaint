@@ -12,10 +12,11 @@ MONTH_LIST = ['july', 'august', 'september', 'october']
 
 def parse_week(week):
     week_book = xlrd.open_workbook(week)
+    if week.endswith('.DS_Store'):
+        return
 
     if week_book.nsheets != 12:
-        print('Why is the number of sheets not 12?!')
-        sys.exit()
+        return
 
     print('---------', week[-14:-4], '---------')
 
@@ -24,6 +25,9 @@ def parse_week(week):
 
 
 def parse_month(data_set):
+    print(data_set)
+    if data_set.endswith('.DS_Store'):
+        return
     for week in os.listdir(data_set):
         pn_week = week.lower().strip()
         if pn_week.startswith('week') and pn_week.endswith('.xls') and len(pn_week) < 17:

@@ -20,7 +20,10 @@ def parse_location(sh, x, y):
     # name = sh.cell_value(rowx=x, colx=0).split('(')[0]
 
     # FUCK THIS FUCKING FORMAT
-    # date = sh.cell_value(rowx=x+1, colx=3)
+    date = sh.cell_value(rowx=x+1, colx=3)
+    if date == '':
+        return
+    print('DATE', int(date))
 
     # print(id, name)
 
@@ -96,7 +99,7 @@ def parse_location(sh, x, y):
 
             diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag.value, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
             unit = int(unit)
-            print(diag, unit)
+            # print(diag, unit)
             # dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time)
             # s.add(dep)
         else:
