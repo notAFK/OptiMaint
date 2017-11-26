@@ -1,4 +1,6 @@
-from optimaint.db.config import BASE
+from contextlib import contextmanager
+
+from optimaint.db.config import BASE, SESSION
 from sqlalchemy import Column, Integer, String, Date, ForeignKey, Float
 
 
@@ -94,8 +96,30 @@ class AnnTrain(BASE):
     __tablename__ = 'ann_trains'
 
     uuid = Column(String, primary_key=True)
-    
+    next_service = Column(String)
+    last_service_miles = Column(String)
+    last_service_days = Column(String)
+    next_core = Column(String)
+    last_core_miles = Column(String)
+    last_core_days = Column(String)
+    next_mv = Column(String)
+    last_mv_miles = Column(String)
+    last_mv_days = Column(String)
 
+
+class AnnRoute(BASE):
+    __tablename__ = 'ann_route'
+
+    uuid = Column(Integer, primary_key=True)
+    id = Column(String)
+    total_mileage = Column(Float)
+    company = Column(String)
+    no_cars = Column(Integer)
+    date = Column(Date)
+    start_station = Column(String)
+    start_time = Column(Date)
+    end_station = Column(String)
+    end_time = Column(Date)
 
 
 @contextmanager
