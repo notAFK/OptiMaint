@@ -63,12 +63,15 @@ def parse_location(book, sh, x, y):
             if unit.value == 'U/C':
                 continue
 
-            diag = diag.replace(' ', '')
+            diag = diag.value.replace(' ', '')
             if len(diag) != 5:
                 continue
+            if not diag.startswith('XC'):
+                continue
+            print('DIAG', diag)
             no_cars = int(diag[2])
 
-            diag, hc, frm, artime, unit, exam, comment = diag.value, hc.value, frm.value, artime.value, unit.value, exam.value, comment.value
+            diag, hc, frm, artime, unit, exam, comment = diag, hc.value, frm.value, artime.value, unit.value, exam.value, comment.value
             unit = int(unit)
             print(diag, unit)
             arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam, date=date, no_cars=no_cars)
@@ -111,12 +114,15 @@ def parse_location(book, sh, x, y):
             if miles.value == '':
                 continue
 
-            diag = diag.replace(' ', '')
+            diag = diag.value.replace(' ', '')
             if len(diag) != 5:
                 continue
+            if not diag.startswith('XC'):
+                continue
+            print('DIAG', diag)
             no_cars = int(diag[2])
 
-            diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag.value, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
+            diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
             unit = int(unit)
             print(miles, type(miles))
             try:
