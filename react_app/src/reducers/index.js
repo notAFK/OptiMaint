@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
+import TimetableReducer from './reducer_timetable';
 
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  timetable: TimetableReducer
 });
 
 export default rootReducer;
