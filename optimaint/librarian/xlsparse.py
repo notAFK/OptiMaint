@@ -1,13 +1,14 @@
 import xlrd
-from optimaint.librarian.db import Arrival, Departure, SESSION
+# from optimaint.librarian.db import Arrival, Departure, SESSION
 
 
 ABRV = ['EC', 'XW', 'MA', 'CZ', 'BK', 'LA', 'PZ', 'EH']
-s = SESSION()
+# s = SESSION()
 
 
 def parse_sheet(sh):
-    print('  ', sh.name, sh.nrows, sh.ncols)
+    # print('  ', sh.name, sh.nrows, sh.ncols)
+    print(sh.name)
     for rx in range(sh.nrows):
         rval = sh.cell_value(rowx=rx, colx=8)
         if rval in ABRV:
@@ -54,11 +55,11 @@ def parse_location(sh, x, y):
             if unit.value == 'U/C':
                 continue
 
-            print(diag, unit)
             diag, hc, frm, artime, unit, exam, comment = diag.value, hc.value, frm.value, artime.value, unit.value, exam.value, comment.value
             unit = int(unit)
-            arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam)
-            s.add(arv)
+            print(diag, unit)
+            # arv = Arrival(station_id=id, diagram=diag, hc=hc, from_station=frm, arrival_time=artime, unit=unit, exam=exam)
+            # s.add(arv)
         else:
             continue
 
@@ -93,11 +94,11 @@ def parse_location(sh, x, y):
             if unit.value == 'U/C':
                 continue
 
-            print(diag, unit)
             diag, hc, starttime, fd, time, miles, unit, comment, ontime = diag.value, hc.value, starttime.value, fd.value, time.value, miles.value, unit.value, comment.value, ontime.value
             unit = int(unit)
-            dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time)
-            s.add(dep)
+            print(diag, unit)
+            # dep = Departure(station_id=id, diagram=diag, hc=hc, finish_depot=fd, miles=miles, unit=unit, time=time)
+            # s.add(dep)
         else:
-            break
-    s.commit()
+            continue
+    # s.commit()

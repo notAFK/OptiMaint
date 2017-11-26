@@ -5,7 +5,8 @@ import xlrd
 import optimaint.librarian.xlsparse as xlsparse
 
 
-DATA_DIR = os.path.abspath('history/2017')
+DATA_DIR_2017 = os.path.abspath('history/2017')
+DATA_DIR_2015 = os.path.abspath('history/2015')
 MONTH_LIST = ['july', 'august', 'september', 'october']
 
 
@@ -16,23 +17,25 @@ def parse_week(week):
         print('Why is the number of sheets not 12?!')
         sys.exit()
 
-    print('---------', week[-15:], '---------')
+    print('---------', week[-14:-4], '---------')
 
     for sindex in range(1, 8):
         xlsparse.parse_sheet(week_book.sheet_by_index(sindex))
 
 
-def parse_month(month):
-    fp = os.path.join(DATA_DIR, month)
-    for week in os.listdir(fp):
+def parse_month(data_set):
+    for week in os.listdir(data_set):
         pn_week = week.lower().strip()
         if pn_week.startswith('week') and pn_week.endswith('.xls') and len(pn_week) < 17:
-            parse_week(os.path.join(fp, week))
+            parse_week(os.path.join(data_set, week))
 
 
 def parse_all():
     for month in MONTH_LIST:
-        parse_month(month)
+        parse_month(os.path.join(DATA_DIR_2017, month))
+    for dir in os.listdir(DATA_DIR_2015):
+        print(dir)
+        parse_month(os.path.join(DATA_DIR_2015, dir))
 
 
 parse_all()
